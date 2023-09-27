@@ -6,6 +6,6 @@
   "scripts": {
     "test": "node js-operators-coercion/operatorsAndCoercion.js"
   },
-  "author": "",
+  "author": "Maryna Vasylyk",
   "license": "ISC"
 }
