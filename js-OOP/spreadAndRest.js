@@ -11,10 +11,9 @@ console.log(combinedArray);
 
 // TASK 2
 function multiply(multiplier, ...arguments) {
-    const result = arguments.map(element => element * multiplier);
-    return result;
-  }
-  
-  const result = multiply(4, 9, 83, 3);
-  console.log(result);
-  
+  const result = arguments.map((element) => element * multiplier);
+  return result;
+}
+
+const result = multiply(4, 9, 83, 3);
+console.log(result);
